@@ -1,0 +1,62 @@
+.item{
+    background-color: beige;
+    color: white;
+    padding: 1rem;
+    height: 500px;
+    width: 500px;
+}
+
+.Shopcointainer{
+    max-width: 1750;
+    margin: 0 auto;
+    display: grid;
+    gap: 3rem;
+    position: relative;
+    align-self: center;
+}
+@media (max-width: 599px) {
+    .Shopcointainer { grid-template-columns: repeat(1, 1fr); }
+  }
+@media (min-width: 600px) {
+    .Shopcointainer { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .Shopcointainer { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 1200px) {
+    .Shopcointainer { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1800px) {
+    .Shopcointainer { grid-template-columns: repeat(3, 1fr); }
+  }
+
+
+  .button{
+    position: absolute;
+    bottom: auto;
+    margin-top: 400px;
+    color: beige;
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 100px; 
+    position: center;
+  }
+h1{
+    
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+img{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    width: 300px;
+}
+h2{
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+}
